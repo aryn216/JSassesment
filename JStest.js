@@ -22,7 +22,7 @@ function mintNFT (fname,c) {
 }
 
 
-// create a "loop" that will go through an "array" of NFT's
+// create a "loop" that will go through an "array" of NFTs
 // and print their metadata with console.log()
 function listNFTs () {
     for(i=0;i<arr.length;i++)
@@ -36,7 +36,7 @@ function getTotalSupply() {
 console.log(count);
 }
 
-// call your functions below this line
+// calling the functions below this line
 //
 mintNFT("jeet", "gold")
 mintNFT("reet","silver")
